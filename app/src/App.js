@@ -1,10 +1,11 @@
 import React from 'react';
-import Weather from './utils/weatherAPI';
+
+import SearchPastContainer from './components/SearchPastSearches';
 
 export default function App() {
   return (
-    <div className="App">
-      <Weather />
+    <div>
+      <SearchPastContainer />
     </div>
   );
 }
