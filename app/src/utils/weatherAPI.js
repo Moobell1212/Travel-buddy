@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 
 const BASEURL = "http://api.weatherapi.com/v1/forecast.json?key="
 
